@@ -18,5 +18,5 @@
 #
 ---
 include:
-  - board: nrf52840_m2
-    shield: two_percent_milk
+  - board: x57
+    shield: x57
