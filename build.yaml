@@ -18,5 +18,5 @@
 #
 ---
 include:
-  - board: x57
+  - board: nrfmicro
     shield: x57
