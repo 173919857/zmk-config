@@ -1,0 +1,10 @@
+file_format: "1"
+id: x57
+name: x57
+type: shield
+url: 
+requires: [nrfmicro_13]
+exposes: [i2c_oled]
+features:
+  - keys
+  - pointer
