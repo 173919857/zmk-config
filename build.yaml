@@ -15,8 +15,7 @@
 #     shield: corne_left
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #     artifact-name: corne_left_with_logging
-#test in home
 ---
 include:
-  - board: x57
+  - board: nrfmicro_13
     shield: x57
