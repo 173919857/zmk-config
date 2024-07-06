@@ -1,0 +1,6 @@
+if SHIELD_X57
+
+config ZMK_KEYBOARD_NAME
+    default "x57"
+
+endif
