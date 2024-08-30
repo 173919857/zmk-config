@@ -15,15 +15,15 @@
                 &kp TAB    &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I    &kp O    &kp P    &kp BSPC
                 &kp CAPS    &kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &kp K    &kp L    &kp ENTER
                 &kp LSHFT    &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &mt RSHFT HOME    &kp UP    &kp END
-                &kp LCTRL    &kp KP_NUM    &kp LWIN    &mt LALT COMMA    &lt 1 SPACE    &mt RALT DOT    &kp RCTRL    &kp LEFT    &kp DOWN    &kp RIGHT
+                &kp LCTRL    &none    &kp LWIN    &mt LALT COMMA    &lt 1 SPACE    &mt RALT DOT    &kp RCTRL    &kp LEFT    &kp DOWN    &kp RIGHT
             >;
         };
         layer_1 {
             bindings = <
-                &kp GRAVE    &kp C_AC_SCROLL_UP    &kp C_AC_SCROLL_DOWN    &kp PG_UP    &kp PG_DN    &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &none
-                &kp TILDE2    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &none    &kp LBKT    &kp RBKT    &kp BSLH    &kp DEL
+                &kp GRAVE    &kp C_AC_SCROLL_UP    &kp C_AC_SCROLL_DOWN    &kp PG_UP    &kp PG_DN    &bootloader    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp SCROLLLOCK    &kp KP_NUMLOCK
+                &kp TILDE    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &none    &kp LBKT    &kp RBKT    &kp BSLH    &kp DEL
                 &none    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12    &kp SEMI    &kp SQT    &kp SLASH    &kp K_APP
-                &kp LSHFT    &kp C_MUTE    &kp C_VOL_DN    &kp C_VOL_UP    &kp C_AL_CALC    &kp INS    &kp PSCRN    &kp KP_NUM    &mkp LCLK    &kp KP_N8    &mkp RCLK
+                &kp LSHFT    &kp C_MUTE    &kp C_VOL_DN    &kp C_VOL_UP    &kp C_AL_CALCULATOR    &kp INS    &kp PSCRN    &none    &mkp LCLK    &kp KP_N8    &mkp RCLK
                 &kp LCTRL    &none    &kp LWIN    &mt LALT COMMA    &none    &mt RALT DOT    &kp RCTRL    &kp KP_N4    &kp KP_N2    &kp KP_N6
             >;
         };
