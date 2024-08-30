@@ -20,10 +20,10 @@
         };
         layer_1 {
             bindings = <
-                &none    &kp K_SCROLL_UP    &kp K_SCROLL_DOWN    &kp PG_UP    &kp PG_DN    &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &none
+                &none    &kp C_AC_SCROLL_UP    &kp C_AC_SCROLL_DOWN    &kp PG_UP    &kp PG_DN    &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &none
                 &kp GRAVE    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &none    &kp LBKT    &kp RBKT    &kp BSLH    &kp DEL
                 &none    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12    &kp SEMI    &kp SQT    &kp SLASH    &kp K_APP
-                &kp LSHFT    &kp K_MUTE    &kp K_VOL_DN    &kp K_VOL_UP    &kp K_CALC    &kp INS    &kp PSCRN    &kp KP_NUM    &mkp LCLK    &kp KP_N8    &mkp RCLK
+                &kp LSHFT    &kp C_MUTE    &kp C_VOL_DN    &kp C_VOL_UP    &kp C_AL_CALC    &kp INS    &kp PSCRN    &kp KP_NUM    &mkp LCLK    &kp KP_N8    &mkp RCLK
                 &kp LCTRL    &none    &kp LWIN    &mt LALT COMMA    &none    &mt RALT DOT    &kp RCTRL    &kp KP_N4    &kp KP_N2    &kp KP_N6
             >;
         };
