@@ -19,7 +19,7 @@
 &kp TAB    &kp Q   &kp W     &kp E           &kp R        &kp T         &kp Y      &kp U     &kp I           &kp O      &kp P      &kp BSPC
 &kp CAPS   &kp A   &kp S     &kp D           &kp F        &kp G         &kp H      &kp J     &kp K           &kp L      &kp ENTER
 &kp LSHFT  &kp Z   &kp X     &kp C           &kp V        &kp B         &kp N      &kp M     &mt RSHFT HOME  &kp UP     &kp END
-&kp LCTRL  &none   &kp LWIN  &mt LALT COMMA  &lt 1 SPACE  &mt RALT DOT  &kp RCTRL  &kp LEFT  &kp DOWN        &kp RIGHT
+&kp LCTRL  &to 5   &kp LWIN  &mt LALT COMMA  &lt 1 SPACE  &mt RALT DOT  &kp RCTRL  &kp LEFT  &kp DOWN        &kp RIGHT
             >;
         };
 
@@ -39,7 +39,7 @@
 &kp TAB    &kp Q   &kp W     &kp E           &kp R        &kp T         &kp Y     &kp U     &kp I           &kp O      &kp P      &kp BSPC
 &kp CAPS   &kp A   &kp S     &kp D           &kp F        &kp G         &kp H     &kp J     &kp K           &kp L      &kp ENTER
 &kp LSHFT  &kp Z   &kp X     &kp C           &kp V        &kp B         &kp N     &kp M     &mt RSHFT HOME  &kp UP     &kp END
-&kp LCTRL  &none   &kp LALT  &mt LCMD COMMA  &lt 3 SPACE  &mt RCMD DOT  &kp RALT  &kp LEFT  &kp DOWN        &kp RIGHT
+&kp LCTRL  &to 5   &kp LALT  &mt LCMD COMMA  &lt 3 SPACE  &mt RCMD DOT  &kp RALT  &kp LEFT  &kp DOWN        &kp RIGHT
             >;
         };
 
@@ -59,7 +59,7 @@
 &kp TAB     &kp Q   &kp W         &kp E         &kp R      &kp T          &kp Y      &kp U           &kp I            &kp O         &kp P      &kp BACKSPACE
 &kp CAPS    &kp A   &kp S         &kp D         &kp F      &kp G          &kp H      &kp J           &kp K            &kp L         &kp ENTER
 &kp LSHIFT  &kp Z   &kp X         &kp C         &kp V      &kp B          &kp N      &kp M           &kp RIGHT_SHIFT  &kp UP_ARROW  &kp END
-&kp LCTRL   &none   &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &kp RIGHT_ALT  &kp RCTRL  &kp LEFT_ARROW  &kp DOWN         &kp RIGHT
+&kp LCTRL   &to 5   &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &kp RIGHT_ALT  &kp RCTRL  &kp LEFT_ARROW  &kp DOWN         &kp RIGHT
             >;
         };
 
