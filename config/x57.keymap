@@ -19,17 +19,17 @@
 &kp TAB    &kp Q   &kp W     &kp E           &kp R        &kp T         &kp Y      &kp U     &kp I           &kp O      &kp P      &kp BSPC
 &kp CAPS   &kp A   &kp S     &kp D           &kp F        &kp G         &kp H      &kp J     &kp K           &kp L      &kp ENTER
 &kp LSHFT  &kp Z   &kp X     &kp C           &kp V        &kp B         &kp N      &kp M     &mt RSHFT HOME  &kp UP     &kp END
-&kp LCTRL  &to 5   &kp LWIN  &mt LALT COMMA  &lt 1 SPACE  &mt RALT DOT  &kp RCTRL  &kp LEFT  &kp DOWN        &kp RIGHT
+&kp LCTRL  &to 6   &kp LWIN  &mt LALT COMMA  &lt 1 SPACE  &mt RALT DOT  &kp RCTRL  &kp LEFT  &kp DOWN        &kp RIGHT
             >;
         };
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp C_AC_SCROLL_UP  &kp C_AC_SCROLL_DOWN  &kp PG_UP       &kp PG_DN            &bootloader   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4  &kp SCROLLLOCK  &kp KP_NUMLOCK
-&kp TILDE   &kp F1              &kp F2                &kp F3          &kp F4               &kp F5        &kp F6        &none           &kp LBKT        &kp RBKT         &kp BSLH      &kp DEL
-&bt BT_CLR  &kp F7              &kp F8                &kp F9          &kp F10              &kp F11       &kp F12       &kp SEMI        &kp SQT         &kp SLASH        &kp K_APP
-&kp LSHFT   &kp C_MUTE          &kp C_VOL_DN          &kp C_VOL_UP    &kp C_AL_CALCULATOR  &kp INS       &kp PSCRN     &none           &mkp LCLK       &mmv MOVE_UP     &mkp RCLK
-&kp LCTRL   &none               &kp LWIN              &mt LALT COMMA  &none                &mt RALT DOT  &kp RCTRL     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&kp GRAVE  &kp K_SCROLL_UP  &kp K_SCROLL_DOWN  &kp PG_UP       &kp PG_DN   &none         &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4  &kp SLCK  &kp KP_NUM
+&kp TILDE  &kp F1           &kp F2             &kp F3          &kp F4      &kp F5        &kp F6        &none           &kp LBKT        &kp RBKT         &kp BSLH      &kp DEL
+&kp CAPS   &kp F7           &kp F8             &kp F9          &kp F10     &kp F11       &kp F12       &kp SEMI        &kp SQT         &kp SLASH        &kp K_APP
+&kp LSHFT  &kp K_MUTE       &kp K_VOL_DN       &kp K_VOL_UP    &kp K_CALC  &kp INS       &kp PSCRN     &none           &mkp LCLK       &mmv MOVE_UP     &mkp RCLK
+&kp LCTRL  &none            &kp LWIN           &mt LALT COMMA  &none       &mt RALT DOT  &kp RCTRL     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
             >;
         };
 
@@ -39,35 +39,45 @@
 &kp TAB    &kp Q   &kp W     &kp E           &kp R        &kp T         &kp Y     &kp U     &kp I           &kp O      &kp P      &kp BSPC
 &kp CAPS   &kp A   &kp S     &kp D           &kp F        &kp G         &kp H     &kp J     &kp K           &kp L      &kp ENTER
 &kp LSHFT  &kp Z   &kp X     &kp C           &kp V        &kp B         &kp N     &kp M     &mt RSHFT HOME  &kp UP     &kp END
-&kp LCTRL  &to 5   &kp LALT  &mt LCMD COMMA  &lt 3 SPACE  &mt RCMD DOT  &kp RALT  &kp LEFT  &kp DOWN        &kp RIGHT
+&kp LCTRL  &to 6   &kp LALT  &mt LCMD COMMA  &lt 3 SPACE  &mt RCMD DOT  &kp RALT  &kp LEFT  &kp DOWN        &kp RIGHT
             >;
         };
 
         layer_3 {
             bindings = <
-&kp GRAVE  &kp C_AC_SCROLL_UP  &kp C_AC_SCROLL_DOWN  &kp PG_UP       &kp PG_DN  &none         &none     &none           &none           &none            &none      &none    &none
-&kp TILDE  &kp F1              &kp F2                &kp F3          &kp F4     &kp F5        &kp F6    &none           &kp LBKT        &kp RBKT         &kp BSLH   &kp DEL
-&kp CAPS   &kp F7              &kp F8                &kp F9          &kp F10    &kp F11       &kp F12   &kp SEMI        &kp SQT         &kp SLASH        &kp ENTER
-&kp LSHFT  &none               &none                 &none           &none      &none         &none     &none           &mkp LCLK       &mmv MOVE_UP     &mkp RCLK
-&kp LCTRL  &none               &kp LEFT_ALT          &mt LCMD COMMA  &none      &mt RCMD DOT  &kp RALT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&kp GRAVE  &kp K_SCROLL_UP  &kp K_SCROLL_DOWN  &kp PG_UP       &kp PG_DN  &none         &none     &none           &none           &none            &none      &none    &none
+&kp TILDE  &kp F1           &kp F2             &kp F3          &kp F4     &kp F5        &kp F6    &none           &kp LBKT        &kp RBKT         &kp BSLH   &kp DEL
+&kp CAPS   &kp F7           &kp F8             &kp F9          &kp F10    &kp F11       &kp F12   &kp SEMI        &kp SQT         &kp SLASH        &kp ENTER
+&kp LSHFT  &none            &none              &none           &none      &none         &none     &none           &mkp LCLK       &mmv MOVE_UP     &mkp RCLK
+&kp LCTRL  &none            &kp LALT           &mt LCMD COMMA  &none      &mt RCMD DOT  &kp RALT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
             >;
         };
 
         layer_4 {
             bindings = <
-&kp ESC     &kp N1  &kp N2        &kp N3        &kp N4     &kp N5         &kp N6     &kp N7          &kp N8           &kp N9        &kp N0     &kp MINUS      &kp EQUAL
-&kp TAB     &kp Q   &kp W         &kp E         &kp R      &kp T          &kp Y      &kp U           &kp I            &kp O         &kp P      &kp BACKSPACE
-&kp CAPS    &kp A   &kp S         &kp D         &kp F      &kp G          &kp H      &kp J           &kp K            &kp L         &kp ENTER
-&kp LSHIFT  &kp Z   &kp X         &kp C         &kp V      &kp B          &kp N      &kp M           &kp RIGHT_SHIFT  &kp UP_ARROW  &kp END
-&kp LCTRL   &to 5   &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &kp RIGHT_ALT  &kp RCTRL  &kp LEFT_ARROW  &kp DOWN         &kp RIGHT
+&kp ESC    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5  &kp N6     &kp N7    &kp N8     &kp N9     &kp N0     &kp MINUS  &kp EQUAL
+&kp TAB    &kp Q   &kp W     &kp E     &kp R      &kp T   &kp Y      &kp U     &kp I      &kp O      &kp P      &kp BSPC
+&kp CAPS   &kp A   &kp S     &kp D     &kp F      &kp G   &kp H      &kp J     &kp K      &kp L      &kp ENTER
+&kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B   &kp N      &kp M     &kp RSHFT  &kp UP     &kp END
+&kp LCTRL  &to 6   &kp LWIN  &kp LALT  &kp SPACE  &mo 5   &kp RCTRL  &kp LEFT  &kp DOWN   &kp RIGHT
             >;
         };
 
         layer_5 {
             bindings = <
+&kp GRAVE  &kp K_SCROLL_UP  &kp K_SCROLL_DOWN  &kp PG_UP     &kp PG_DN   &none    &none      &none           &none           &none            &none      &none    &none
+&kp TILDE  &kp F1           &kp F2             &kp F3        &kp F4      &kp F5   &kp F6     &none           &kp LBKT        &kp RBKT         &kp BSLH   &kp DEL
+&kp CAPS   &kp F7           &kp F8             &kp F9        &kp F10     &kp F11  &kp F12    &kp SEMI        &kp SQT         &kp SLASH        &kp ENTER
+&kp LSHFT  &kp K_MUTE       &kp K_VOL_DN       &kp K_VOL_UP  &kp K_CALC  &kp INS  &kp PSCRN  &none           &mkp LCLK       &mmv MOVE_UP     &mkp RCLK
+&kp LCTRL  &none            &kp LWIN           &mt LALT      &none       &none    &kp RCTRL  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+            >;
+        };
+
+        layer_6 {
+            bindings = <
 &none  &to 0  &to 2  &to 4  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_CLR
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bootloader
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
